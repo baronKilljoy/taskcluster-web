@@ -19,6 +19,7 @@ module.exports = {
       rules: {
         'react/no-access-state-in-setstate': 'off',
         'babel/no-unused-expressions': 'off',
+		'linebreak-style': 'off',
       },
     }],
     ['@neutrinojs/react', {

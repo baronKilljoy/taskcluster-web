@@ -97,6 +97,7 @@ export default [
       import(/* webpackChunkName: 'HomeOrDashboard' */ '../views/HomeOrDashboard')
     ),
     path: '/',
+    exact: true,
   },
   {
     component: lazy(() =>
